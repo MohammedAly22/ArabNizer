@@ -10,6 +10,7 @@ Here are some common named entity tags:
 | ORG    |  اسم مؤسسة   | denotes named entities that refer to organizations, institutions, companies, agencies, or any group of people with a common purpose or affiliation.|
 
 # Running Demo:
+https://github.com/MohammedAly22/ArabNizer/assets/90681796/1d4a5f6a-c639-40b8-804c-a333b0d69642
 
 # Usage:
 Demo link: 
