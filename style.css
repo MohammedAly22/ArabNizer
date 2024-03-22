@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+    direction: rtl;
+}
+
+/* title */
+h1 {
+    font-weight: 700;
+    /* font-size: 30px; */
+    margin-right: -50px !important;
+}
+
+
+/* buttons */
+.st-emotion-cache-7ym5gk,
+.st-emotion-cache-19rxjzo {
+    width: 30%;
+    height: 40px;
+    background-color: #4c10c6;
+    color: #fff;
+    transition: 0.4s;
+    border: none;
+}
+
+
+.st-emotion-cache-7ym5gk:hover,
+.st-emotion-cache-19rxjzo:hover {
+    background-color: #4611b0;
+    color: #fff;
+    border: none;
+}
+
+.st-emotion-cache-7ym5gk:focus,
+.st-emotion-cache-19rxjzo:focus {
+    color: #fff !important;
+    box-shadow: none;
+    border: none;
+}
+
+/* header */
+.row_heading {
+    font-size: 14px;
+}
+
+/* spinner */
+.css-1y04v0k.e17lx80j1,
+.css-p6380s.e17lx80j1 {
+    margin: 0px;
+    border-color: #29e778 #b3b3b333 #cacaca33 !important;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+/* text stylings */
+/* 1 */
+.highlight-PER {
+    border-radius: 0.4rem;
+    background-color: #f13443;
+    color: #ffffff;
+    padding: 5px 6px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.highlight-inner-PER {
+    border-radius: 0.3rem;
+    background-color: #ff5e6b;
+    color: #fff;
+    padding: 1px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+/* 2 */
+.highlight-ORG {
+    border-radius: 0.4rem;
+    background-color: #1e7cf8;
+    color: #ffffff;
+    padding: 5px 6px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.highlight-inner-ORG {
+    border-radius: 0.3rem;
+    background-color: #4696ff;
+    color: #fff;
+    padding: 1px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+/* 3 */
+.highlight-LOC {
+    border-radius: 0.4rem;
+    background-color: #17ab6d;
+    color: #ffffff;
+    padding: 5px 6px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.highlight-inner-LOC {
+    border-radius: 0.3rem;
+    background-color: #48d49a;
+    color: #fff;
+    padding: 1px 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.bold-text {
+    font-weight: 600 !important;
+}
+
+.highlighted-text {
+    line-height: 45px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.highlighted-text>span {
+    white-space: nowrap;
+}
+
+/* footer */
+footer {
+    display: none !important;
+}
