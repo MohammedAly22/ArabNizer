@@ -1,6 +1,5 @@
 import streamlit as st
-from utils import pipe, generate_highlighted_text 
-
+from utils import pipe, get_all_words_and_entities, generate_highlighted_text
 
 
 # for custom CSS styling
@@ -19,13 +18,13 @@ with st.form('submission_form'):
             with st.spinner('...جاري التحميل'):
                 model_output = pipe(text, grouped_entities=True)
 
-            
             words = [item['word'] for item in model_output if item['word']]
-            entities = [item['entity_group'] for item in model_output if item['word']]        
+            entities = [item['entity_group'] for item in model_output if item['word']]  
 
+            # all_words, all_entities = get_all_words_and_entities(text, words, entities)
             rendered_text = generate_highlighted_text(words, entities)
             
-            st.write('<p class="bold-text"> النتيجة المتوقعة: </p>', unsafe_allow_html=True)
+            st.write('<p class="bold-text"> الكيانات المُسماة: </p>', unsafe_allow_html=True)
             st.markdown(rendered_text, unsafe_allow_html=True)
 
         else:
