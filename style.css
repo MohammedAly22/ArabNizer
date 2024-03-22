@@ -76,6 +76,13 @@ h1 {
 }
 
 /* 2 */
+.highlight-X {
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+
+/* 3 */
 .highlight-ORG {
     border-radius: 0.4rem;
     background-color: #1e7cf8;
@@ -94,7 +101,7 @@ h1 {
     margin-right: 5px;
 }
 
-/* 3 */
+/* 4 */
 .highlight-LOC {
     border-radius: 0.4rem;
     background-color: #17ab6d;
@@ -113,10 +120,12 @@ h1 {
     margin-right: 5px;
 }
 
+/* bold-text */
 .bold-text {
     font-weight: 600 !important;
 }
 
+/* highlighted-text */
 .highlighted-text {
     line-height: 45px;
     margin-bottom: 10px;
