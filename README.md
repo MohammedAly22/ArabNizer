@@ -17,7 +17,7 @@ Demo link: https://arabnizer.streamlit.app/
 
 Hugging Face model card: https://huggingface.co/mohammedaly22/arabnizer-xlmr-panx-ar
 
-## Downloading and Running Tasneef Locally:
+## Downloading and Running ArabNizer Locally:
 1. Clone this repository
 ```git
 git clone https://github.com/MohammedAly22/ArabNizer
