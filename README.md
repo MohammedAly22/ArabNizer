@@ -32,7 +32,7 @@ streamlit run main.py
 ```python
 from transformers import pipeline
 
-ner_tagger = pipeline("token-classification", "mohammedaly22/mohammedaly22/arabnizer-xlmr-panx-ar")
+ner_tagger = pipeline("token-classification", "mohammedaly22/arabnizer-xlmr-panx-ar")
 text = 'اسمي محمد، اعمل في شركة اورانج و اسكن في القاهرة.'
 ner_tagger(text, grouped_entities=True)
 ```
