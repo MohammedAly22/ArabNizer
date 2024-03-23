@@ -13,7 +13,7 @@ Here are some common named entity tags:
 https://github.com/MohammedAly22/ArabNizer/assets/90681796/1d4a5f6a-c639-40b8-804c-a333b0d69642
 
 # Usage:
-Demo link: 
+Demo link: https://arabnizer.streamlit.app/
 
 Hugging Face model card: https://huggingface.co/mohammedaly22/arabnizer-xlmr-panx-ar
 
