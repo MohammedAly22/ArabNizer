@@ -7,7 +7,7 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-st.title('التعرف على الكيانات المُسماة')
+st.title('استخراج الكيانات المُسماة')
 
 with st.form('submission_form'):
     text = st.text_area('من فضلك ادخل النص:', placeholder='ادخل النص المراد تصنيفه...', height=80)
