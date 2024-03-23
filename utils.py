@@ -1,9 +1,15 @@
 import re
 from transformers import pipeline
 from nltk import word_tokenize
+import streamlit as st
 
 
-pipe = pipeline('token-classification', 'mohammedaly22/arabnizer-xlmr-panx-ar')
+@st.cache_resource
+def load_pipe():
+    pipe = pipeline('token-classification', 'mohammedaly22/arabnizer-xlmr-panx-ar')
+    return pipe
+
+pipe = load_pipe()
 
 class_mapper = {
     'PER': 'شخص',
